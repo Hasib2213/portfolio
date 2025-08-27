@@ -398,7 +398,7 @@ nav .fa-solid{
     background-color: #00b894;
     color: white;
     padding: 10px 20px;
-    width: 100%;
+    width: 40%;
     text-align: left;
     border: none;
     outline: none;
@@ -445,3 +445,19 @@ nav .fa-solid{
   #skills li {
     margin-bottom: 15px;
   }
+
+
+/* new add*/
+.bar-container {
+  width: 30%;
+  background: #eee;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.bar {
+  width: 100%;   /* ✅ সবসময় পুরো হবে */
+  height: 30px;
+  background: #4caf50;
+  border-radius: 10px;
+}
